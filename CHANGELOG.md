@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Add support for pipe operators
 
+## [v0.12.0] - 2025-12-24
+
+* Update rowan to 0.16.1
+
 ## [v0.11.0] - 2022-11-11
 
 * removes the `types` module and replaces it with `ast`
@@ -122,7 +126,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 * Fixed a memory leak while parsing `inherit`-expressions with invalid syntax (from [@Ma27](https://github.com/Ma27/)).
 
-[Unreleased]: https://github.com/nix-community/rnix-parser/compare/v0.11.0...master
+[Unreleased]: https://github.com/nix-community/rnix-parser/compare/v0.12.0...master
+[v0.12.0]: https://github.com/nix-community/rnix-parser/compare/v0.11.0...v0.12.0
 [v0.11.0]: https://github.com/nix-community/rnix-parser/compare/v0.10.2...v0.11.0
 [v0.10.2]: https://github.com/nix-community/rnix-parser/compare/v0.10.1...v0.10.2
 [v0.10.1]: https://github.com/nix-community/rnix-parser/compare/v0.10.0...v0.10.1
